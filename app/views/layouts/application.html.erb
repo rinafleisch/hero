@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Hero</title>
+    <title>Superhero Name Generator</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,11 @@
   </head>
 
   <body>
+
+  <%= link_to 'Home Page', root_path %> |
+  <%= link_to 'Create a Team', home_team_path %>
+
+
     <%= yield %>
   </body>
 </html>
