@@ -1,6 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
+This is a web development project created as part of a tutorial to learn Ruby on Rails. It is certainly not original to me.
+
+<!-- This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
@@ -21,4 +23,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ... -->
