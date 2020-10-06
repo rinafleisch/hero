@@ -13,7 +13,6 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 # my added gems
 gem 'jquery-rails'
-gem 'sassc-rails', '>= 2.1.0'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # end my added
 
