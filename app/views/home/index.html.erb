@@ -3,10 +3,40 @@
     <div class="card-header">
       <%= link_to 'Click here to generate a new superhero', root_path, class: 'card-link text-muted'%> 
     </div>
-    <div class="card-body">
-      <h5 class="card-title"><%= @name %></h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="card-body pt-4 pb-3">
+
+      <div class="row">
+        <div class="col-md-4">
+        <img src="<%= @avatar %>"></img>
+        </div>
+        <div class="col-md-4">  
+          <h5 class="card-title">
+            Your Superhero Name: <br>
+            <span class="text-danger"><%= @hero_name %></span>
+          </h5>
+          <h5 class="card-title">
+            Your Super Power: <br>
+            <span class="text-danger"><%= @hero_power %></span>
+          </h5>
+          <br>
+          <h6 class="card-title">
+            Your Favorite Saying: <br>
+            <span class="font-italic text-primary"><small><%= @hero_saying %></small></span>
+          </h6>
+          <h6 class="card-title">
+            Your Undercover Day Job: <br>
+            <span class="text-primary"><%= @hero_title %></span>
+          </h6>
+          <h6 class="card-title">
+            Your Corporate Superpower: <br>
+            <span class="text-primary"><%= @hero_job %></span>
+          </h6>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+
+      
     </div>
     <div class="card-footer">
       <%= link_to 'Create a Superhero Team', home_team_path, class: 'card-link text-muted' %>
